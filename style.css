@@ -1,0 +1,72 @@
+#orange {
+    background-color: #f4623a!important;
+    color: white;
+  
+    padding: 100px 0px;
+}
+#orange .myorangerow {
+
+}
+#orange .myorangerow .mytitle{
+
+}
+#orange .myorangerow .mytitle h2{
+    position: relative;
+    margin-bottom: 40px;
+
+}
+#orange .myorangerow .mytitle h2::after{
+    content: "";
+    height: 3px ;
+    background-color: white;
+    width: 40px;
+    bottom: -10px;
+    left: 50%;
+    position: absolute;
+
+}
+
+#orange .myorangerow .mytitle p{
+color: rgba(255,255,255,.5)!important;
+}
+
+#orange .myorangerow .mytitle a{
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+
+}
+
+.btn-xl {
+    padding: 1.25rem 2.25rem;
+    font-size: .85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+}
+/* my service section */
+#service {
+padding-top: 100px 0px;
+}
+#service .secondsect {
+
+}
+#service .secondsect h2{
+    position: relative;
+    margin-top: 40px;  
+}
+#service .secondsect h2::after{
+    content: "";
+    height: 3px ;
+    background-color: red;
+    width: 40px;
+    bottom: -20px;
+    left: 48%;
+    position: absolute;
+
+}
+i {
+    font-size: 50px;
+    color: #f4623a;
+}
